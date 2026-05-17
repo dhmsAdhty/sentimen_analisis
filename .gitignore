@@ -1,0 +1,24 @@
+# Environment variables — JANGAN upload ke GitHub!
+.env
+backend/.env
+*.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.venv/
+
+# Data sementara — bisa besar & berisi data pengguna
+backend/temp_data/
+backend/models/*.pkl
+
+# Node modules
+frontend/node_modules/
+frontend/dist/
+
+# IDE
+.vscode/
+.idea/
+*.swp
